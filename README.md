@@ -196,7 +196,7 @@ diverse-digital-website-review/
 
 ---
 
-**Review Date:** November 14-16, 2024  
+**Review Date:** November 14-16, 2025  
 **Website:** www.diverse-digital.co.uk  
 **Status:** Active - Critical fixes still needed
 

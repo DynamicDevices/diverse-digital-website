@@ -1,7 +1,7 @@
 # Website Review Report
 ## Diverse Digital - www.diverse-digital.co.uk
 
-**Review Date:** December 2024  
+**Review Date:** November 14, 2025  
 **Reviewer:** Website Audit  
 **Website:** www.diverse-digital.co.uk
 
@@ -500,7 +500,7 @@ The website's focus on accessibility and inclusivity is both a differentiator an
 ---
 
 **Report Prepared By:** Website Review Team  
-**Date:** December 2024  
+**Date:** November 14, 2025  
 **Next Review Recommended:** 3 months after implementation
 
 ---
