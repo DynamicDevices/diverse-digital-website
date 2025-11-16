@@ -1,0 +1,114 @@
+🌐 MAIN NAVIGATION (TOP MENU)
+
+1.  Home
+
+    -   URL: /
+
+    -   Purpose: Overview of who you are, who you support, key services,
+        and main CTAs.
+
+2.  Services
+
+    -   URL: /services
+
+    -   Subpages:
+
+        1.  Social Media Management – /services/social-media-management
+
+        2.  Email & Content Marketing –
+            /services/email-content-marketing
+
+        3.  Digital Coaching & Strategy –
+            /services/digital-coaching-strategy
+
+        4.  Accessible & Inclusive Communications –
+            /services/accessible-communications
+
+        5.  Digital Communications Partner (Retainer) –
+            /services/digital-communications-partner
+
+3.  About
+
+    -   URL: /about
+
+    -   Sections: Your story, mission, values, founder bio, who you
+        support.
+
+4.  Work With Me / Packages
+
+    -   URL: /work-with-me
+
+    -   Purpose: Simple overview of packages + pricing with “Book a
+        Call” buttons.
+
+5.  Resources
+
+    -   URL: /resources
+
+    -   Subpages:
+
+        1.  Blog / Articles – /resources/blog
+
+        2.  Guides & Downloads – /resources/downloads
+
+        3.  Workshops & Training – /resources/workshops
+
+6.  Contact
+
+    -   URL: /contact
+
+    -   Purpose: Contact form, email, social links, basic FAQs.
+
+📄 KEY SUPPORTING PAGES
+
+7.  Testimonials & Case Studies
+
+    -   URL: /stories or /case-studies
+
+    -   Purpose: Social proof, success stories, before/after examples.
+
+8.  Accessibility Statement
+
+    -   URL: /accessibility
+
+    -   Purpose: Outline your commitment, accessible formats, how people
+        can request support.
+
+9.  FAQs
+
+    -   URL: /faqs
+
+    -   Purpose: Answer common questions about services, pricing,
+        process, timelines.
+
+10. Privacy Policy
+
+    -   URL: /privacy-policy
+
+11. Terms & Conditions
+
+    -   URL: /terms
+
+🔻 FOOTER LINKS
+
+In the footer, repeat or link to:
+
+-   Home
+
+-   Services
+
+-   Work With Me
+
+-   Resources
+
+-   Contact
+
+-   Stories / Case Studies
+
+-   Accessibility
+
+-   Privacy Policy
+
+-   Terms & Conditions
+
+-   Social icons (LinkedIn, Instagram, Facebook)

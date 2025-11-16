@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>website-update-review</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#website-update-review">Website Update Review</a>
+<ul>
+<li><a href="#comparison-initial-review-vs.-current-state">Comparison: Initial Review vs. Current State</a></li>
+<li><a href="#executive-summary">Executive Summary</a></li>
+<li><a href="#key-metrics-comparison">Key Metrics Comparison</a></li>
+<li><a href="#critical-issues-status">Critical Issues Status</a>
+<ul>
+<li><a href="#still-unfixed-title-tag">❌ STILL UNFIXED: Title Tag</a></li>
+<li><a href="#still-unfixed-meta-description">❌ STILL UNFIXED: Meta Description</a></li>
+<li><a href="#improved-social-media-tags">✅ IMPROVED: Social Media Tags</a></li>
+</ul></li>
+<li><a href="#seo-score-improvement-analysis">SEO Score Improvement Analysis</a>
+<ul>
+<li><a href="#what-improved-8100-80100">What Improved (8/100 → 80/100)</a></li>
+</ul></li>
+<li><a href="#best-practices-score-drop-90-59">Best Practices Score Drop (90 → 59)</a>
+<ul>
+<li><a href="#concerning-change">⚠️ Concerning Change</a></li>
+</ul></li>
+<li><a href="#what-hasnt-changed">What Hasn’t Changed</a>
+<ul>
+<li><a href="#still-missing-as-identified-in-initial-review">Still Missing (As Identified in Initial Review)</a></li>
+</ul></li>
+<li><a href="#recommendations">Recommendations</a>
+<ul>
+<li><a href="#immediate-actions-this-week">Immediate Actions (This Week)</a></li>
+<li><a href="#short-term-actions-this-month">Short-Term Actions (This Month)</a></li>
+</ul></li>
+<li><a href="#positive-changes">Positive Changes ✅</a></li>
+<li><a href="#comparison-summary">Comparison Summary</a>
+<ul>
+<li><a href="#whats-better">What’s Better ✅</a></li>
+<li><a href="#whats-still-wrong">What’s Still Wrong ❌</a></li>
+<li><a href="#whats-missing-expected">What’s Missing (Expected) ⏳</a></li>
+</ul></li>
+<li><a href="#next-steps-priority">Next Steps Priority</a>
+<ul>
+<li><a href="#priority-1-critical-seo-fixes-do-today">Priority 1: Critical SEO Fixes (Do Today)</a></li>
+<li><a href="#priority-2-investigate-best-practices-this-week">Priority 2: Investigate Best Practices (This Week)</a></li>
+<li><a href="#priority-3-continue-planned-improvements">Priority 3: Continue Planned Improvements</a></li>
+</ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="website-update-review">Website Update Review</h1>
+<h2 id="comparison-initial-review-vs.-current-state">Comparison: Initial Review vs. Current State</h2>
+<p><strong>Review Date:</strong> November 16, 2024<br />
+<strong>Website:</strong> www.diverse-digital.co.uk<br />
+<strong>Comparison Period:</strong> November 14, 2024 → November 16, 2024</p>
+<hr />
+<h2 id="executive-summary">Executive Summary</h2>
+<p>The website has seen <strong>significant SEO improvement</strong> (from 8/100 to 80/100), but the <strong>critical title tag and meta description issues remain unfixed</strong>. There’s also a concerning drop in the Best Practices score. Social media tags (Open Graph/Twitter) appear to have been updated correctly.</p>
+<hr />
+<h2 id="key-metrics-comparison">Key Metrics Comparison</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Initial (Nov 14)</th>
+<th>Current (Nov 16)</th>
+<th>Change</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Performance</strong></td>
+<td>100/100</td>
+<td>100/100</td>
+<td>No change</td>
+<td>✅ Excellent</td>
+</tr>
+<tr class="even">
+<td><strong>Accessibility</strong></td>
+<td>100/100</td>
+<td>100/100</td>
+<td>No change</td>
+<td>✅ Excellent</td>
+</tr>
+<tr class="odd">
+<td><strong>Best Practices</strong></td>
+<td>90/100</td>
+<td>59/100</td>
+<td>⬇️ -31 points</td>
+<td>⚠️ <strong>Worsened</strong></td>
+</tr>
+<tr class="even">
+<td><strong>SEO</strong></td>
+<td>8/100</td>
+<td>80/100</td>
+<td>⬆️ +72 points</td>
+<td>✅ <strong>Improved</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Page Load Time</strong></td>
+<td>0.08s</td>
+<td>0.09s</td>
+<td>+0.01s</td>
+<td>✅ Still excellent</td>
+</tr>
+<tr class="even">
+<td><strong>Page Size</strong></td>
+<td>259 KB</td>
+<td>257 KB</td>
+<td>-2 KB</td>
+<td>✅ Slight improvement</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="critical-issues-status">Critical Issues Status</h2>
+<h3 id="still-unfixed-title-tag">❌ STILL UNFIXED: Title Tag</h3>
+<p><strong>Current State:</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;title&gt;</span>Digital Services for Faith Groups - Affordable Solutions<span class="kw">&lt;/title&gt;</span></span></code></pre></div>
+<p><strong>Should Be:</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;title&gt;</span>Diverse Digital | Digital Marketing for Purpose-Driven Businesses<span class="kw">&lt;/title&gt;</span></span></code></pre></div>
+<p><strong>Status:</strong> ❌ <strong>STILL WRONG</strong> - This is the most critical SEO issue and remains unfixed.</p>
+<p><strong>Impact:</strong> - Search engines still indexing site incorrectly - People searching for actual services won’t find the site - Brand confusion continues</p>
+<hr />
+<h3 id="still-unfixed-meta-description">❌ STILL UNFIXED: Meta Description</h3>
+<p><strong>Current State:</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span><span class="ot"> name=</span><span class="st">&quot;description&quot;</span><span class="ot"> content=</span><span class="st">&quot;Affordable digital services for faith groups, supporting community action with tailored digital solutions for churches.&quot;</span><span class="kw">/&gt;</span></span></code></pre></div>
+<p><strong>Should Be:</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span><span class="ot"> name=</span><span class="st">&quot;description&quot;</span><span class="ot"> content=</span><span class="st">&quot;Empowering diverse and purpose-driven businesses with accessible digital marketing, social media management, and accessibility consulting. Book your discovery call today.&quot;</span><span class="kw">/&gt;</span></span></code></pre></div>
+<p><strong>Status:</strong> ❌ <strong>STILL WRONG</strong> - Critical SEO element remains incorrect.</p>
+<p><strong>Impact:</strong> - Poor search result descriptions - Users won’t understand what business actually does - Low click-through rates from search</p>
+<hr />
+<h3 id="improved-social-media-tags">✅ IMPROVED: Social Media Tags</h3>
+<p><strong>Open Graph Tags (for Facebook/LinkedIn):</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span><span class="ot"> property=</span><span class="st">&quot;og:title&quot;</span><span class="ot"> content=</span><span class="st">&quot;Diverse Digital&quot;</span><span class="kw">/&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span><span class="ot"> property=</span><span class="st">&quot;og:description&quot;</span><span class="ot"> content=</span><span class="st">&quot;To be seen, heard, and supported online.&quot;</span><span class="kw">/&gt;</span></span></code></pre></div>
+<p><strong>Twitter Tags:</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span><span class="ot"> name=</span><span class="st">&quot;twitter:title&quot;</span><span class="ot"> content=</span><span class="st">&quot;Diverse Digital&quot;</span><span class="kw">/&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span><span class="ot"> name=</span><span class="st">&quot;twitter:description&quot;</span><span class="ot"> content=</span><span class="st">&quot;Empowering Diverse and Purpose-driven Businesses&quot;</span><span class="kw">/&gt;</span></span></code></pre></div>
+<p><strong>Status:</strong> ✅ <strong>CORRECT</strong> - Social media tags have been updated properly.</p>
+<p><strong>Impact:</strong> - Good social media sharing appearance - However, this doesn’t help with search engine SEO (Google doesn’t use these for ranking)</p>
+<hr />
+<h2 id="seo-score-improvement-analysis">SEO Score Improvement Analysis</h2>
+<h3 id="what-improved-8100-80100">What Improved (8/100 → 80/100)</h3>
+<p>The SEO score improved dramatically, which suggests some technical SEO improvements were made. Possible changes:</p>
+<ol type="1">
+<li><strong>Structured Data</strong> - May have been added</li>
+<li><strong>Internal Linking</strong> - May have been improved</li>
+<li><strong>Heading Structure</strong> - May have been fixed</li>
+<li><strong>Alt Text</strong> - May have been added to images</li>
+<li><strong>URL Structure</strong> - May have been optimized</li>
+<li><strong>Canonical Tags</strong> - May have been added/fixed</li>
+</ol>
+<p><strong>However:</strong> The title tag and meta description are still wrong, which is why the score isn’t 90-100.</p>
+<hr />
+<h2 id="best-practices-score-drop-90-59">Best Practices Score Drop (90 → 59)</h2>
+<h3 id="concerning-change">⚠️ Concerning Change</h3>
+<p>The Best Practices score dropped from 90/100 to 59/100. This could indicate:</p>
+<ol type="1">
+<li><strong>New Third-Party Scripts</strong> - May have added tracking or other scripts</li>
+<li><strong>Security Issues</strong> - May have introduced vulnerabilities</li>
+<li><strong>Performance Issues</strong> - May have added heavy resources</li>
+<li><strong>Accessibility Regression</strong> - Unlikely given accessibility score unchanged</li>
+<li><strong>Console Errors</strong> - May have introduced JavaScript errors</li>
+</ol>
+<p><strong>Action Required:</strong> Investigate what caused this drop. Check: - Browser console for errors - New third-party scripts - Security headers - Performance optimizations</p>
+<hr />
+<h2 id="what-hasnt-changed">What Hasn’t Changed</h2>
+<h3 id="still-missing-as-identified-in-initial-review">Still Missing (As Identified in Initial Review)</h3>
+<ol type="1">
+<li><strong>Client Testimonials</strong> - Still not visible on homepage</li>
+<li><strong>Case Studies/Portfolio</strong> - Still missing</li>
+<li><strong>Blog Section</strong> - Still not present</li>
+<li><strong>Resource Library</strong> - Still missing</li>
+<li><strong>Enhanced About Page</strong> - Still basic</li>
+</ol>
+<p>These align with the 90-day relaunch plan timeline, so may be in progress.</p>
+<hr />
+<h2 id="recommendations">Recommendations</h2>
+<h3 id="immediate-actions-this-week">Immediate Actions (This Week)</h3>
+<ol type="1">
+<li><strong>Fix Title Tag</strong> ❌ <strong>URGENT</strong>
+<ul>
+<li>Current: “Digital Services for Faith Groups - Affordable Solutions”</li>
+<li>Change to: “Diverse Digital | Digital Marketing for Purpose-Driven Businesses”</li>
+<li><strong>Time:</strong> 5 minutes</li>
+<li><strong>Impact:</strong> Will improve SEO score to 90+</li>
+</ul></li>
+<li><strong>Fix Meta Description</strong> ❌ <strong>URGENT</strong>
+<ul>
+<li>Current: Describes faith groups</li>
+<li>Change to: Accurate business description</li>
+<li><strong>Time:</strong> 5 minutes</li>
+<li><strong>Impact:</strong> Better search result appearance</li>
+</ul></li>
+<li><strong>Investigate Best Practices Drop</strong> ⚠️
+<ul>
+<li>Check browser console for errors</li>
+<li>Review new scripts added</li>
+<li>Verify security headers</li>
+<li><strong>Time:</strong> 30 minutes</li>
+<li><strong>Impact:</strong> Restore score to 90+</li>
+</ul></li>
+</ol>
+<h3 id="short-term-actions-this-month">Short-Term Actions (This Month)</h3>
+<ol start="4" type="1">
+<li><strong>Continue SEO Improvements</strong>
+<ul>
+<li>The SEO score improvement shows progress</li>
+<li>Keep optimizing other elements</li>
+<li>Add structured data if not already done</li>
+</ul></li>
+<li><strong>Follow 90-Day Plan</strong>
+<ul>
+<li>Week 2: Website &amp; Portfolio (add testimonials/case studies)</li>
+<li>Week 3: Social Media Relaunch</li>
+<li>Week 5: Thought Leadership (blog)</li>
+</ul></li>
+</ol>
+<hr />
+<h2 id="positive-changes">Positive Changes ✅</h2>
+<ol type="1">
+<li><strong>SEO Score Improved</strong> - From 8/100 to 80/100 (+72 points)</li>
+<li><strong>Social Media Tags Fixed</strong> - Open Graph and Twitter tags are correct</li>
+<li><strong>Performance Maintained</strong> - Still excellent (100/100)</li>
+<li><strong>Accessibility Maintained</strong> - Still perfect (100/100)</li>
+</ol>
+<hr />
+<h2 id="comparison-summary">Comparison Summary</h2>
+<h3 id="whats-better">What’s Better ✅</h3>
+<ul>
+<li>SEO score dramatically improved</li>
+<li>Social media tags correct</li>
+<li>Performance still excellent</li>
+<li>Accessibility still perfect</li>
+</ul>
+<h3 id="whats-still-wrong">What’s Still Wrong ❌</h3>
+<ul>
+<li>Title tag still incorrect (most critical)</li>
+<li>Meta description still incorrect (critical)</li>
+<li>Best practices score dropped (concerning)</li>
+</ul>
+<h3 id="whats-missing-expected">What’s Missing (Expected) ⏳</h3>
+<ul>
+<li>Testimonials (planned for Week 9)</li>
+<li>Case studies (planned for Week 2 &amp; 9)</li>
+<li>Blog (planned for Week 5)</li>
+<li>Resources (planned for later)</li>
+</ul>
+<hr />
+<h2 id="next-steps-priority">Next Steps Priority</h2>
+<h3 id="priority-1-critical-seo-fixes-do-today">Priority 1: Critical SEO Fixes (Do Today)</h3>
+<ol type="1">
+<li>Fix title tag (5 minutes)</li>
+<li>Fix meta description (5 minutes)</li>
+<li>This will likely push SEO score to 90-100</li>
+</ol>
+<h3 id="priority-2-investigate-best-practices-this-week">Priority 2: Investigate Best Practices (This Week)</h3>
+<ol type="1">
+<li>Check what caused the drop</li>
+<li>Fix any new issues</li>
+<li>Restore score to 90+</li>
+</ol>
+<h3 id="priority-3-continue-planned-improvements">Priority 3: Continue Planned Improvements</h3>
+<ol type="1">
+<li>Follow 90-day relaunch plan</li>
+<li>Add testimonials when ready</li>
+<li>Create case studies</li>
+<li>Launch blog</li>
+</ol>
+<hr />
+<h2 id="conclusion">Conclusion</h2>
+<p><strong>Good News:</strong> - Significant SEO improvements have been made (8→80) - Social media tags are correct - Core performance metrics remain excellent</p>
+<p><strong>Bad News:</strong> - The two most critical SEO elements (title tag and meta description) are still wrong - Best practices score dropped significantly - These issues are preventing the SEO score from reaching 90-100</p>
+<p><strong>Action:</strong> Fix the title tag and meta description immediately (10 minutes total). This is the single most important action that will complete the SEO improvements already started.</p>
+<hr />
+<p><strong>Review Date:</strong> November 16, 2024<br />
+<strong>Next Review:</strong> After title tag and meta description fixes</p>
+</body>
+</html>
